@@ -1,14 +1,16 @@
 @font-face {
-    font-family: 'Alagard', Arial, Helvetica, sans-serif;
-    src: url("../../assets/fonts/alagard.ttf");
+    font-family: 'Alagard';
+    src: url("../../assets/fonts/alagard.ttf") format('truetype');
     font-weight: 400;
     font-style: normal;
+    font-display: swap
 }
 @font-face {
     font-family: 'Letter Gothic Std Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('Letter Gothic Std Medium'), url('LetterGothicStd.woff') format('woff');
+    src: url('LetterGothicStd.woff') format('woff');
+    font-display: swap
     }
     
 
@@ -16,5 +18,6 @@
     font-family: 'Letter Gothic Std Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Letter Gothic Std Bold'), url('LetterGothicStd-Bold.woff') format('woff');
+    src: url('LetterGothicStd-Bold.woff') format('woff');
+    font-display: swap
     }

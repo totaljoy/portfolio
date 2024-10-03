@@ -12,7 +12,7 @@
     overflow: hidden;
 
         &__marquee {
-            animation: marquee 173s linear infinite;
+            animation: marquee 100s linear infinite;
             font-family: 'Alagard';
             color: rgb(255, 0, 128);
             white-space: nowrap;
@@ -39,5 +39,11 @@
     }
     100% {
         transform: translate3d(-100%, -50%, 0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .homepage__marquee {
+      animation-duration: 86.5s; // Half of the original duration
     }
   }

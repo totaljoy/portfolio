@@ -12,11 +12,10 @@
         &__item {
             list-style-type: none;
             margin: 1rem;
-            font-family: 'Letter Gothic Std Medium';
             font-size: 1rem;
 
             &--bold {
-                font-family: 'Letter Gothic Std Bold';
+                font-weight: bold;
             }
         }
 

@@ -1,6 +1,10 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/typography' as *;
+
 .homepage {
     width: 100%;
-    padding: 10px 0;
     display: flex;
     height: 90vh;
     align-items: center;
@@ -8,8 +12,8 @@
     overflow: hidden;
 
         &__marquee {
-            animation: marquee 180s linear infinite;
-            font-family: 'Letter Gothic Std Bold';
+            animation: marquee 173s linear infinite;
+            font-family: 'Alagard';
             color: rgb(255, 0, 128);
             white-space: nowrap;
             font-size: 3rem;

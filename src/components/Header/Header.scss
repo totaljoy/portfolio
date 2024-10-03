@@ -1,0 +1,28 @@
+@use '../../styles/partials/global' as *;
+@use '../../styles/partials/mixins' as *;
+@use '../../styles/partials/variables' as *;
+@use '../../styles/partials/typography' as *;
+
+.nav {
+    position: fixed;
+
+    &-list {
+        display: flex;
+
+        &__item {
+            list-style-type: none;
+            margin: 1rem;
+            font-family: 'Letter Gothic Std Medium';
+            font-size: 1rem;
+
+            &--bold {
+                font-family: 'Letter Gothic Std Bold';
+            }
+        }
+
+        &__link {
+            color: rgb(255, 0, 128);
+            text-decoration: none;
+        }
+    }
+}

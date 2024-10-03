@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Alagard', Arial, Helvetica, sans-serif;
+    src: url("../../assets/fonts/alagard.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Letter Gothic Std Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Letter Gothic Std Medium'), url('LetterGothicStd.woff') format('woff');
+    }
+    
+
+    @font-face {
+    font-family: 'Letter Gothic Std Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Letter Gothic Std Bold'), url('LetterGothicStd-Bold.woff') format('woff');
+    }

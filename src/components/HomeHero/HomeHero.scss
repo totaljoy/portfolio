@@ -1,0 +1,31 @@
+.homepage {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+        &__marquee {
+            animation: marquee 180s linear infinite;
+            font-family: 'Letter Gothic Std Bold';
+            color: rgb(255, 0, 128);
+            white-space: nowrap;
+            font-size: 3rem;
+            position: absolute;
+            top: 50%;
+            left: 0%;
+            transform: translateY(-50%);
+        }
+}
+
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }

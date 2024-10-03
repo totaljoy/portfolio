@@ -15,7 +15,7 @@
             display: flex;
             white-space: nowrap;
             will-change: transform;
-            animation: marquee linear infinite;
+            animation: marquee var(--marquee-duration, 10s) linear infinite;
 
             &-container {
                 position: absolute;
@@ -48,6 +48,6 @@
       transform: translateX(0);
     }
     100% {
-      transform: translateX(-50%);
+      transform: translateX(-100%);
     }
   }
